@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+
+Redirect 302 /safari http://sourceforge.net/projects/catblock/files/1.1.0%20-%20IT%20WORKS/Safari.safariextz/download
