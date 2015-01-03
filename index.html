@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>CatBlock!</title>
-		<!-- Add jQuery as it is a bootstrap JS dependency -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<!-- Add Bootstrap for easy CSSing -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-		<!-- End bootstrap -->
-		<!-- Add our own JS script -->
-		<script type="text/javascript" src="/index.js"></script>
-	</head>
-	<body>
-		<!-- Google Tag Manager must go at top of body -->
-			<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3K9K9"
-			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			})(window,document,'script','dataLayer','GTM-K3K9K9');</script>
-		<!-- End Google Tag Manager -->
-		<div class="container">
-			<div class="jumbotron">
-				<h1>CatBlock, the AdBlock with cats in it!</h1>
-				<p>Replace ads online with cats!</p>
-				<p>If you don't like cats, you can use something else, don't worry</p>
-				<button class="btn btn-default">Learn More <span class="glyphicon glyphicon-new-window"></span></button> <a id="downloadbtn" role="button" class="btn btn-primary">Download for Safari</a>
-			</div>
-		</div>
-	</body>
+    <head>
+        <title>CatBlock!</title>
+        <!-- Add jQuery as it is a bootstrap JS dependency -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Add Bootstrap for easy CSSing -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <!-- End bootstrap -->
+        <!-- Add our own JS script -->
+        <script type="text/javascript" src="/index.js"></script>
+    </head>
+    <body>
+        <!-- Google Tag Manager must go at top of body -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3K9K9"
+                    height="0" width="0" style="display:none;visibility:hidden">
+            </iframe>
+        </noscript>
+        <script>
+            (function(w,d,s,l,i) {
+                w[l]=w[l]||[];
+                w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+                var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),
+                    dl=l!='dataLayer'?'&l='+l:'';
+                j.async=true;
+                j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
+                f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-K3K9K9');
+        </script>
+        <!-- End Google Tag Manager -->
+        <div class="container">
+            <div class="jumbotron">
+                <h1>CatBlock, the AdBlock with cats in it!</h1>
+                <p>Replace ads online with cats!</p>
+                <p>If you don't like cats, you can use something else, don't worry!</p>
+                <button class="btn btn-default">Learn More <span class="glyphicon glyphicon-new-window"></span></button> <a id="downloadbtn" role="button" class="btn btn-primary">Download for Safari</a>
+            </div>
+        </div>
+        <div role="navigation" class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/privacy/">Privacy Policy</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
