@@ -1,0 +1,202 @@
+body {
+  font-family: 'Avenir W01';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: transparent;
+}
+p {
+  line-height: 2;
+}
+.container {
+  max-width: 1080px;
+}
+.navbar-toggle {
+  position: absolute;
+  right: 0;
+}
+.navbar-toggle .icon-bar {
+  background: #666;
+}
+.btn-success {
+  background-color: #27aa41;
+}
+.btn-success:hover {
+  background-color: #1b7746;
+}
+.navbar {
+  margin: 0;
+}
+@media (min-width: 992px) {
+  .navbar {
+    padding: 20px 0;
+  }
+}
+.navbar-collapse {
+  background: #ededed;
+}
+@media (min-width: 768px) {
+  .navbar-collapse {
+    background: transparent;
+  }
+}
+.navbar-nav>li>a {
+  color: #666;
+}
+.navbar-nav>li>a:hover {
+  background: none;
+  color: #000;
+}
+.navbar-brand {
+  text-align: center;
+  margin: auto;
+  display: block;
+  float: none;
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-top: -12px;
+    float: left;
+  }
+}
+.navbar-brand img {
+  display: inline-block;
+}
+.navbar-brand .symbol {
+  margin: auto;
+  width: 30px;
+  display: inline;
+}
+@media (min-width: 992px) {
+  .navbar-brand .symbol {
+    margin-right: 12px;
+  }
+}
+.navbar-brand .symbol img {
+  height: 30px;
+  margin: auto;
+  margin-top: -6px;
+}
+@media (min-width: 992px) {
+  .navbar-brand .symbol img {
+    height: 40px;
+    margin-top: 2px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand .logotype {
+    display: inline-block;
+    margin-top: 2px;
+  }
+}
+.btn {
+  border: 0;
+  border-radius: 100px;
+}
+.btn.btn-lg {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.banner {
+  text-align: center;
+  padding: 20px 0 60px 0;
+}
+.banner .btn-success {
+  margin-top: 10px;
+  padding: 14px 30px;
+}
+.banner p {
+  font-size: 18px;
+  opacity: 0.6;
+}
+footer.site-footer {
+  color: #999;
+  font-size: 12px;
+  padding: 40px 0;
+  border-top: 1px solid #f1f1f1;
+  margin-top: 40px;
+  background: transparent;
+}
+footer.site-footer ul {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  footer.site-footer ul {
+    float: right;
+  }
+}
+footer.site-footer li {
+  display: block;
+  text-align: left;
+  margin: 20px 0;
+}
+@media (min-width: 992px) {
+  footer.site-footer li {
+    margin: 0 0 0 40px;
+    display: inline-block;
+  }
+}
+footer.site-footer a {
+  color: #999;
+}
+footer.site-footer a:hover {
+  color: #333;
+}
+body {
+  overflow-x: hidden;
+}
+html.page-home {
+  background: #fff;
+}
+html.page-home .navbar,
+html.page-home .banner {
+  background: #f6f6f6;
+}
+html.page-home .content {
+  text-align: center;
+}
+html.page-home footer.site-footer {
+  background: #fff;
+  margin-top: 0;
+  border: 0;
+}
+html.page-home .banner {
+  text-align: center;
+  padding: 30px 0;
+}
+@media (min-width: 992px) {
+  html.page-home .banner {
+    min-height: 400px;
+  }
+}
+html.page-home .features-list {
+  margin-bottom: 0;
+  background: #fff;
+  border-top: 1px solid #fff;
+  padding: 80px 0;
+}
+html.page-home .features-list h4 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0;
+  color: #333;
+}
+html.page-home .features-list p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+html.page-home .features-list .row .col-sm-4 {
+  margin-top: 30px;
+}
+html.page-home .features-list .row .col-sm-4:first-child {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  html.page-home .features-list .row .col-sm-4 {
+    margin-top: 0;
+  }
+}
+.logo {
+  margin-top: 30px;
+  width: 70%;
+}
