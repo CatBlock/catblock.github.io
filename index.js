@@ -30,10 +30,14 @@ $(document).ready(function () {
 
 	if (opera) {
 		$DLbutton.text("Download for Opera");
-		$DLbutton.attr("href", "/opera");
+        $DLbutton.click(function() {
+            opr.addons.installExtension("pejeadkbfbppoaoinpmkeonebmngpnkk");
+        });
 	} else if (chrome) {
 		$DLbutton.text("Download for Chrome");
-		$DLbutton.attr("href", "/chrome");
+        $DLbutton.click(function() {
+            chrome.webstore.install();
+        });
 	} else if (safari) {
 		$DLbutton.text("Download for Safari");
 		$DLbutton.attr("href", "/safari");
