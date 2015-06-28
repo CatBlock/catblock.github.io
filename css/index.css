@@ -200,8 +200,3 @@ html.page-home .features-list .row .col-sm-4:first-child {
   margin-top: 30px;
   width: 70%;
 }
-@media (max-width: 992px) {
-  #logodiv {
-    display: none;
-  }
-}

@@ -1,5 +1,26 @@
 $(document).ready(function () {
 	"use strict";
+
+    var leftdiv = document.getElementById("leftrow");
+    var rightdiv = document.getElementById("rightrow");
+
+    function resize(width) {
+        if (width < 985) {
+            $(rightdiv).css("display", "none").removeClass("col-xs-4");
+            $(leftdiv).removeClass("col-xs-8");
+        } else {
+            $(rightdiv).css("display", "block").addClass("col-xs-4");
+            $(leftdiv).addClass("col-xs-8");
+        }
+    }
+
+    // Resize divs properly
+    resize($(window).width());
+
+    $(window).resize(function() {
+        var width = $(window).width();
+        resize(width);
+    });
 	
 	// Let's detect the browser, and show a Safari downloads link if it's unsupported
 	var chrome = window.chrome;
