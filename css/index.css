@@ -200,3 +200,21 @@ html.page-home .features-list .row .col-sm-4:first-child {
   margin-top: 30px;
   width: 70%;
 }
+#social {
+  font-size: large;
+}
+#fb {
+  float: right;
+  padding: 0px 10px 10px 10px;
+  text-decoration: none;
+}
+#twitter {
+  float: right;
+  padding: 0px 0px 10px 10px;
+  text-decoration: none;
+}
+#github {
+  float: right;
+  padding: 0px 10px 10px 10px;
+  text-decoration: none;
+}

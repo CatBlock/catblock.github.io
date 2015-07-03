@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/index.css">
   <link href="//fast.fonts.net/cssapi/c09dcecc-c8ed-4810-86df-2634f138c622.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/index.js"></script>
@@ -36,26 +37,26 @@
 
 <body>
   <!-- Google Tag Manager must go at top of body -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3K9K9" height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-K3K9K9');
-    </script>
-    <!-- End Google Tag Manager -->
+  <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3K9K9" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K3K9K9');
+  </script>
+  <!-- End Google Tag Manager -->
   <nav class="navbar">
     <div class="container">
       <div class="navbar-header">
@@ -80,7 +81,10 @@
           </li>
           <li><a href="http://support.catblock.tk/">Help &amp; Support</a>
           </li>
-		  <li><a href="https://github.com/CatBlock/catblock/">GitHub</a></li>
+          <li><a href="/privacy">Privacy</a>
+            </li>
+            <li><a href="mailto:catblockteam@gmail.com">Contact Us</a>
+            </li>
         </ul>
       </div>
     </div>
@@ -100,7 +104,7 @@
           </div>
           <div id="rightrow" class="col-xs-4">
             <img class="logo" src="//blog.catblock.tk/wp-content/uploads/2015/03/logo-300x300.png" />
-          </div> 
+          </div>
         </div>
       </div>
     </div>
@@ -110,13 +114,16 @@
           <div class="col-sm-3">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
             <h4>What IS CatBlock?</h4>
-            <p>We've taken <a href="//code.getadblock.com">AdBlock's code</a> and taken all those ads you don't see, and replaced them with pictures of cats!</p><br>
-            <p>If you'd rather not see cats, you can use any other set of images you want from Flickr!</p><br>
+            <p>We've taken <a href="//code.getadblock.com">AdBlock's code</a> and taken all those ads you don't see, and replaced them with pictures of cats!</p>
+            <br>
+            <p>If you'd rather not see cats, you can use any other set of images you want from Flickr!</p>
+            <br>
           </div>
           <div id="founders" class="col-sm-3">
             <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
             <h4>Who are we?</h4>
-            <p>We, the founders of this AdBlock fork, all have experience with the AdBlock project, and regularly contribute to the project.</p><br>
+            <p>We, the founders of this AdBlock fork, all have experience with the AdBlock project, and regularly contribute to the project.</p>
+            <br>
             <p>We are:
               <p>Kieran Peckett (England)</p>
               <p>Tomáš Taro (Slovakia)</p>
@@ -141,14 +148,12 @@
   <footer class="site-footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-5">© 2015 CatBlock - Licenced under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0 International</a></div>
-        <div class="col-sm-7">
-          <ul class="clearfix">
-            <li><a href="/privacy">Privacy</a>
-            </li>
-            <li><a href="mailto:catblockteam@gmail.com">Contact Us</a>
-            </li>
-          </ul>
+        <div class="col-sm-10">© 2015 CatBlock - Licenced under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0 International</a>
+        </div>
+        <div id="social" class="col-sm-2">
+          <a id="twitter" href="https://twitter.com/CatBlockTeam" class="fa fa-twitter"></a>
+          <a id="fb" href="https://facebook.com/CatBlockTeam" class="fa fa-facebook-official"></a>
+          <a id="github" href="https://github.com/CatBlock/" class="fa fa-github"></a>
         </div>
       </div>
     </div>
