@@ -1,3 +1,6 @@
 Options +FollowSymLinks
 
 Redirect 302 /safari http://sourceforge.net/projects/catblock/files/1.1.0%20-%20IT%20WORKS/Safari.safariextz/download
+Redirect 302 /chrome https://chrome.google.com/webstore/detail/adblock-with-catblock/mdcgnhlfpnbeieiiccmebgkfdebafodo
+Redirect 302 /opera https://addons.opera.com/en-gb/extensions/details/adblock-with-catblock/?display=en
+Redirect 301 /blog http://blog.catblock.tk
