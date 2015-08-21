@@ -42,6 +42,8 @@
   </noscript>
   <script>
     (function (w, d, s, l, i) {
+      // If user has DNT enabled, don't track him
+      if (n === "1") return;
       w[l] = w[l] || [];
       w[l].push({
         'gtm.start': new Date().getTime(),
@@ -53,7 +55,7 @@
       j.async = true;
       j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K3K9K9');
+    })(window, document, 'script', 'dataLayer', 'GTM-K3K9K9', navigator.doNotTrack);
   </script>
   <!-- End Google Tag Manager -->
   <nav class="navbar">
