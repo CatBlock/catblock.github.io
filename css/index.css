@@ -7,6 +7,13 @@ body {
 p {
   line-height: 2;
 }
+.col-sm-3 > ul > li {
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.col-sm-3 > ul > li:first-child {
+  margin-top: 10px;
+}
 .container {
   max-width: 1080px;
 }
@@ -111,9 +118,8 @@ p {
 footer.site-footer {
   color: #999;
   font-size: 12px;
-  padding: 40px 0;
+  padding: 10px 0;
   border-top: 1px solid #f1f1f1;
-  margin-top: 40px;
   background: transparent;
 }
 footer.site-footer ul {
@@ -166,14 +172,14 @@ html.page-home .banner {
 }
 @media (min-width: 992px) {
   html.page-home .banner {
-    min-height: 400px;
+    min-height: 350px;
   }
 }
 html.page-home .features-list {
   margin-bottom: 0;
   background: #fff;
   border-top: 1px solid #fff;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 html.page-home .features-list h4 {
   font-weight: bold;
