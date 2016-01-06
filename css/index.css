@@ -1,8 +1,5 @@
 body {
-  font-family: 'Avenir W01';
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: transparent;
 }
 p {
   line-height: 2;
