@@ -1,3 +1,4 @@
+var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.2/CatBlock-1.2-Safari.safariextz";
 $(document).ready(function () {
 	"use strict";
 
@@ -40,7 +41,7 @@ $(document).ready(function () {
         });
 	} else if (safari) {
 		$DLbutton.text("Download for Safari");
-		$DLbutton.attr("href", "/safari");
+		$DLbutton.attr("href", safariURL);
 	} else {
         $DLbutton.text("Unfortunately, CatBlock is not available for your browser.");
         $DLbutton.attr("href", "#");
