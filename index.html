@@ -32,6 +32,7 @@
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" id="cookienotice"></script>
 </head>
 
 <body>
@@ -44,6 +45,11 @@
     (function (w, d, s, l, i, n) {
       // If user has DNT enabled, don't track him
       if (n === "1" || n === "yes") return;
+      // Set up EU cookie notice library
+      document.getElementById("cookienotice").src = "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js";
+      window.cookieconsent_options = { "message": "We use cookies to help us improve the site." +
+                                                  "By using the site, you give us permission to store cookies on your browser.",
+                                       "dismiss": "Got it!", "learnMore": "More info", "link": "/privacy", "theme": "dark-bottom" };
       w[l] = w[l] || [];
       w[l].push({
         'gtm.start': new Date().getTime(),
