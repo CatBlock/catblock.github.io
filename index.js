@@ -1,6 +1,6 @@
 var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.2/CatBlock-1.2-Safari.safariextz";
 $(document).ready(function () {
-	"use strict";
+    "use strict";
 
     var leftdiv = document.getElementById("leftrow");
     var rightdiv = document.getElementById("rightrow");
@@ -22,27 +22,28 @@ $(document).ready(function () {
         var width = $(window).width();
         resize(width);
     });
-	
-	// Let's detect the browser, and show a Safari downloads link if it's unsupported
-	var chrome = window.chrome;
+
+    // Let's detect the browser, and show a Safari downloads link if it's unsupported
+    var chrome = window.chrome;
     var opera = window.opr;
     var safari = window.safari;
-	var $DLbutton = $("#downloadbtn");
+    var edge = chrome && (navigator.userAgent.indexOf("Edge") > -1)
+    var $DLbutton = $("#downloadbtn");
 
-	if (opera) {
-		$DLbutton.text("Download for Opera");
+    if (opera) {
+        $DLbutton.text("Download for Opera");
         $DLbutton.click(function() {
             opr.addons.installExtension("pejeadkbfbppoaoinpmkeonebmngpnkk");
         });
-	} else if (chrome) {
-		$DLbutton.text("Download for Chrome");
+    } else if (chrome && !edge) {
+        $DLbutton.text("Download for Chrome");
         $DLbutton.click(function() {
             chrome.webstore.install();
         });
-	} else if (safari) {
-		$DLbutton.text("Download for Safari");
-		$DLbutton.attr("href", safariURL);
-	} else {
+    } else if (safari) {
+        $DLbutton.text("Download for Safari");
+        $DLbutton.attr("href", safariURL);
+    } else {
         $DLbutton.text("Unfortunately, CatBlock is not available for your browser.");
         $DLbutton.attr("href", "#");
     }
