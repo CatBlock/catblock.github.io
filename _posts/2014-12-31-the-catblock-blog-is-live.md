@@ -10,8 +10,7 @@ author:
   url: ''
 author_login: kieran
 author_email: catblockteam@gmail.com
-wordpress_id: 4
-wordpress_url: http://catblock.sourceforge.net/blog/?p=4
+post_id: 4
 date: '2014-12-31 14:37:46 +0000'
 date_gmt: '2014-12-31 14:37:46 +0000'
 categories:
