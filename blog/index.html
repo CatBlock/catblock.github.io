@@ -1,0 +1,32 @@
+---
+title: Blog | CatBlock
+layout: page
+
+---
+{% include left-align-posts.html %}
+{% for post in site.posts %}
+<div class="content">
+    <div class="post">
+      <div class="container">
+        <h1><a href="{{post.url}}">{{post.title}}</a></h1>
+        <div class="info_top">
+          <p>
+            <span class="post_categories">
+                Posted in <span class="category">{{ post.categories | join: ", "}}</span>
+            </span><!-- .post_categories -->
+            <span class="post_author">
+                by {{post.author.display_name}}
+            </span><!-- .post_author -->
+            <span class="post_comments">
+              <a href="{{post.url}}#disqus-thread">Comments</a>
+            </span>
+          </p>
+        </div><!-- .info_top -->
+        <div class="post_body">
+            {{ post.excerpt }}
+        </div><!-- .post_body -->
+      </div><!-- .container -->
+    </div><!-- .post -->
+  </div><!-- .content -->
+	{% endfor %}
+<script id="dsq-count-scr" src="//catblockblog.disqus.com/count.js" async></script>
