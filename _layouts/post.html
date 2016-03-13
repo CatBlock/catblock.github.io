@@ -25,7 +25,7 @@
 							<div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "{{page.url}}";
+this.page.url = "{{site.url}}{{page.url | prepend: site.github.url }}";
 this.page.identifier = {{page.post_id}};
 };
 
