@@ -1,0 +1,4 @@
+exclude: ["CNAME","README.md", "LICENSE"]
+timezone: "Europe/London"
+future: "False"
+permalink: /blog/:year/:month/:title
