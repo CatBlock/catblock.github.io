@@ -11,8 +11,8 @@ author:
 author_login: kieran
 author_email: catblockteam@gmail.com
 post_id: 94
-date: '2016-05-02 15:05:00 +0100'
-date_gmt: '2016-05-02 14:05:00 +0000'
+date: '2016-05-02 15:07:02 +0100'
+date_gmt: '2016-05-02 14:07:02 +0000'
 categories:
 - Development updates
 tags: ['Firefox', 'Edge']
