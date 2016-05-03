@@ -32,6 +32,7 @@ comments:
 <p>Other things we've added to this coming update:</p>
 <ul>
 <li>Translations for the CatBlock options page for Slovak, French, Dutch and Russian have been added, so you can understand CatBlock better. (want to help translate CatBlock's options into your language? See <a href="https://github.com/CatBlock/catblock/wiki/Translators">this page</a> for instructions)</li>
+<!--more-->
 <li>Tired of the AdBlock "thumbs up" for whitelisted pages? We've improved it, giving you a paws up instead! It also helps you to know you're using CatBlock and not AdBlock, so there's actually a use, weirdly.</li><br />
 </ul>
 <p>We're not yet sure about an exact release date for this update, as I'm away on holiday this week, and I'm currently the only person with access to publish new versions, but we'll definitely get it out by the end of April. In the meantime, if you're technically inclined, you can grab the latest, bleeding-edge code, from our <a href="https://github.com/CatBlock/catblock">GitHub Page</a> and load it into your browser using the developer tools.</p>

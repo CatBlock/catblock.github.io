@@ -23,3 +23,4 @@ comments: []
 <p>The website will be used for announcing news about the extension and release updates on how development is going.</p>
 <p>Thanks for your support</p>
 <p>Kieran (CatBlock admin)</p>
+<!--more-->

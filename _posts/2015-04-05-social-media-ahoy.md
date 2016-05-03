@@ -24,3 +24,4 @@ comments: []
 <p>We've just launched some new social media accounts on Facebook and Twitter.</p>
 <p>We'll be using these pages, in addition to this blog, to share updates on CatBlock's development.</p>
 <p>Check us out on <a href="https://twitter.com/CatBlockTeam">@CatBlockTeam</a> on Twitter and <a href="https://fb.me/CatBlockTeam">CatBlock</a> on Facebook.</p>
+<!--more-->

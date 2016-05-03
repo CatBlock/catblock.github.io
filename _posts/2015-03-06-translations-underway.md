@@ -26,3 +26,4 @@ comments: []
 <li>Slovak (Tom&aacute;&scaron;)</li><br />
 </ul>
 <p>Thanks so much to our translators! If you want to see CatBlock translated into your language when we release <a href="https://trello.com/c/hj1VfKT2">version 1.1.1</a>, please take a look at our <a href="https://github.com/CatBlock/catblock/wiki/Translators">Translators guide</a></p>
+<!--more-->
