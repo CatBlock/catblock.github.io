@@ -25,6 +25,8 @@ Today I'm happy to announce that after much waiting on our side for the preview 
 
 When CatBlock first launches on Edge, it will be in a beta stage, whilst we iron out some bugs. However, we will be able to use the same code that we already use on Chrome and Opera, which reduces headaches for everyone!
 
+<!--more-->
+
 Another browser that is adding support for Chrome-style extensions is Firefox, as of version 48. We've been testing out CatBlock on the Firefox alpha builds and it's working quite well, with all the features seeming to work at first glance. Again, Firefox will be in beta as it's a new platform, but don't expect too many bugs as Mozilla are considering Firefox 48's version of Chrome extensions quite stable.
 
 Please report any bugs you find in any version of CatBlock, but especially with on Edge and Firefox to us on [our support site](http://support.catblock.tk) and we'll do our best to fix it!
