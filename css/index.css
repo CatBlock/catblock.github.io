@@ -149,7 +149,9 @@ body {
 html.page-home {
   background: #fff;
 }
-html.page-home .navbar,
+html.page-home .navbar {
+  background: #f6f6f6;
+}
 html.page-home .banner {
   background: rgba(246,246,246,0.60);
 }
