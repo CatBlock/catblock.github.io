@@ -22,10 +22,14 @@ p {
 }
 .navbar {
   margin: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background: #f6f6f6;
 }
 @media (min-width: 992px) {
   .navbar {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 .navbar-collapse {
@@ -147,10 +151,12 @@ html.page-home {
 }
 html.page-home .navbar,
 html.page-home .banner {
-  background: #f6f6f6;
+  background: rgba(246,246,246,0.60);
 }
 html.page-home .content {
   text-align: center;
+  position: relative;
+  padding-top: 50px;
 }
 html.page-home footer.site-footer {
   background: #fff;
