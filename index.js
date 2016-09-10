@@ -1,5 +1,5 @@
 var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.3/catblock.safariextz";
-$(document).ready(function () {
+$(document).ready(function() {
     "use strict";
 
     var leftdiv = document.getElementById("leftrow");
