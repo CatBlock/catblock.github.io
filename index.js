@@ -27,7 +27,7 @@ $(document).ready(function() {
     var chrome = window.chrome;
     var opera = window.opr;
     var safari = window.safari;
-    var edge = chrome && (navigator.userAgent.indexOf("Edge") > -1)
+    var edge = chrome && (navigator.userAgent.indexOf("Edge") > -1);
     var $DLbutton = $("#downloadbtn");
 
     if (opera) {
