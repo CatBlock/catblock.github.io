@@ -1,4 +1,4 @@
-var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.3/catblock.safariextz";
+var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.4.4/catblock-safari.safariextz";
 $(document).ready(function() {
     "use strict";
 
