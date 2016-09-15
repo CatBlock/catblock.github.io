@@ -1,4 +1,6 @@
-var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.4.4/catblock-safari.safariextz";
+var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.4.9/catblock-safari.safariextz";
+var firefoxURL = "https://addons.mozilla.org/firefox/addon/adblock-with-catblock/";
+
 $(document).ready(function() {
     "use strict";
 
@@ -28,6 +30,8 @@ $(document).ready(function() {
     var opera = window.opr;
     var safari = window.safari;
     var edge = chrome && (navigator.userAgent.indexOf("Edge") > -1);
+    var firefox = navigator.userAgent.indexOf("Firefox") > -1;
+
     var $DLbutton = $("#downloadbtn");
 
     if (opera) {
@@ -43,6 +47,9 @@ $(document).ready(function() {
     } else if (safari) {
         $DLbutton.text("Download for Safari");
         $DLbutton.attr("href", safariURL);
+    } else if (firefox) {
+        $DLbutton.text("Download for Firefox");
+        $DLbutton.attr("href", firefoxURL);
     } else {
         $DLbutton.text("Unfortunately, CatBlock is not available for your browser.");
         $DLbutton.attr("href", "#");
