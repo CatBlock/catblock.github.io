@@ -1,7 +1,3 @@
-// TODO: Make Project CATS working on Safari
-//       Include click handlers for Firefox and Safari
-//       Include correct links for Safari and Firefox builds
-
 $(document).ready(function () {
     "use strict";
 
@@ -12,11 +8,10 @@ $(document).ready(function () {
     var firefox = navigator.userAgent.indexOf("Firefox") > -1;
 
     var firefoxURL = "https://addons.mozilla.org/firefox/addon/adblock-with-catblock/";
-    var safariURL = "https://github.com/CatBlock/catblock/releases/download/v1.4.9/catblock-safari.safariextz";
 
     var $DLbutton = $("#downloadbtn");
 
-    // Project CATS is available for Chrome and Opera only
+    // Project CATS is available for Chrome, Firefox and Opera only
     if (opera) {
         $DLbutton.text("Download for Opera");
         $DLbutton.click(function() {
@@ -29,14 +24,15 @@ $(document).ready(function () {
             localStorage.setItem("project-cats", true);
             chrome.webstore.install();
         });
-    } else if (safari) {
-        $DLbutton.text("Download for Safari");
-        $DLbutton.attr("href", "#");
     } else if (firefox) {
         $DLbutton.text("Download for Firefox");
         $DLbutton.attr("href", "#");
+        $DLbutton.click(function() {
+            localStorage.setItem("project-cats", true);
+            window.location.href = firefoxURL;
+        });
     } else {
-        $DLbutton.text("Unfortunately, CatBlock is available only for Chrome and Opera");
+        $DLbutton.text("Unfortunately, CatBlock is available only for Chrome, Opera and Firefox");
         $DLbutton.attr("href", "#");
     }
 });
