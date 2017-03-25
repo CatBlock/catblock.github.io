@@ -1,4 +1,4 @@
-var safariURL = "//github.com/CatBlock/catblock/releases/download/v1.4.9/catblock-safari.safariextz";
+var safariURL = "//github.com/CatBlock/catblock/releases/download/v1.5.1/catblock-safari.safariextz";
 var firefoxURL = "//addons.mozilla.org/firefox/addon/adblock-with-catblock/";
 
 $(document).ready(function() {
