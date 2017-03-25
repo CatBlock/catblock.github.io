@@ -20,6 +20,10 @@ p {
 .btn-success:hover {
   background-color: #1b7746;
 }
+.btn-failure {
+  background-color: #e03e2f;
+  color: #fff;
+}
 .navbar {
   margin: 0;
   position: fixed;
@@ -97,17 +101,27 @@ p {
   padding-left: 20px;
   padding-right: 20px;
 }
+#title {
+  margin-bottom: 20px;
+}
+.smaller {
+  font-size: 16px !important;
+}
+.small {
+  font-size: 14px !important;
+}
 .banner {
   text-align: center;
   padding: 20px 0 60px 0;
 }
-.banner .btn-success {
-  margin-top: 10px;
+.banner #downloadbtn {
+  margin-top: 20px;
   padding: 14px 30px;
 }
 .banner p {
   font-size: 18px;
   opacity: 0.6;
+  margin: 0;
 }
 footer.site-footer {
   color: #999;
@@ -171,7 +185,7 @@ html.page-home .banner {
 }
 @media (min-width: 992px) {
   html.page-home .banner {
-    min-height: 400px;
+    min-height: 350px;
   }
 }
 html.page-home .features-list {

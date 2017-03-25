@@ -35,23 +35,24 @@ $(document).ready(function() {
     var $DLbutton = $("#downloadbtn");
 
     if (opera) {
-        $DLbutton.text("Download for Opera");
+        $DLbutton.text("Install CatBlock now!");
         $DLbutton.click(function() {
             opr.addons.installExtension("pejeadkbfbppoaoinpmkeonebmngpnkk");
         });
     } else if (chrome && !edge) {
-        $DLbutton.text("Download for Chrome");
+        $DLbutton.text("Install CatBlock now!");
         $DLbutton.click(function() {
             chrome.webstore.install();
         });
     } else if (safari) {
-        $DLbutton.text("Download for Safari");
+        $DLbutton.text("Install CatBlock now!");
         $DLbutton.attr("href", safariURL);
     } else if (firefox) {
-        $DLbutton.text("Download for Firefox");
+        $DLbutton.text("Install CatBlock now!");
         $DLbutton.attr("href", firefoxURL);
     } else {
-        $DLbutton.text("Unfortunately, CatBlock is not available for your browser.");
+        $DLbutton.removeClass("btn-success").addClass("btn-failure");
+        $DLbutton.text("CatBlock is not available for your browser.");
         $DLbutton.attr("href", "#");
     }
 });
