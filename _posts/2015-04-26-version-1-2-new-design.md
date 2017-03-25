@@ -28,4 +28,4 @@ We've just released the latest version of CatBlock - version 1.2! This brings wi
 <li>The AdBlock "Thumbs up" icon for whitelisted pages has been replaced with a <em>betr</em> "paws up" icon.</li><br />
 </ul>
 <!--more-->
-<p>Downloads: <a href="/chrome">Chrome</a>, <a href="/opera">Opera</a>, <a href="http://sourceforge.net/projects/catblock/files/v1.2/CatBlock-1.2-Safari.safariextz/download">Safari</a></p>
+<p>Downloads: <a href="/chrome">Chrome</a>, <a href="/opera">Opera</a>, <a href="https://sourceforge.net/projects/catblock/files/v1.2/CatBlock-1.2-Safari.safariextz/download">Safari</a></p>

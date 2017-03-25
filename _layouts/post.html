@@ -5,8 +5,8 @@
       <div class="container">
         <h1><a href="{{page.url}}">{{page.title}}</a></h1>
         <div class="info_top">
-					<p>
-						<span class="post_categories">
+                    <p>
+                        <span class="post_categories">
                 Posted in <span class="category">{{page.categories | join ", "}}</span>
             </span><!-- .post_categories -->
             <span class="post_author">
@@ -15,14 +15,14 @@
             <span class="post_comments_count">
               <a href="{{post.url}}#disqus-thread">Comments</a>
             </span>
-					</p>
+                    </p>
         </div><!-- .info_top -->
         <div class="post_body">
             {{content}}
         </div><!-- .post_body -->
         <div class="info_bottom">
             <span class="post_comments">
-							<div id="disqus_thread"></div>
+                            <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
 this.page.url = "{{site.url}}{{page.url | prepend: site.github.url }}";
@@ -43,5 +43,5 @@ s.setAttribute('data-timestamp', +new Date());
         </div><!-- .info-bottom -->
       </div><!-- .container -->
     </div><!-- .post -->
-		<script id="dsq-count-scr" src="//catblockblog.disqus.com/count.js" async></script>
+        <script id="dsq-count-scr" src="https://catblockblog.disqus.com/count.js" async></script>
 {% include footer.html %}

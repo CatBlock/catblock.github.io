@@ -31,7 +31,7 @@ Another browser that is adding support for Chrome-style extensions is Firefox, a
 
 [Here](https://github.com/CatBlock/catblock/releases/tag/1.4) you can download CatBlock for Microsoft Edge browser.
 
-Please report any bugs you find in any version of CatBlock, but especially with on Edge and Firefox to us on [our support site](http://support.catblock.tk) and we'll do our best to fix it!
+Please report any bugs you find in any version of CatBlock, but especially with on Edge and Firefox to us on [our support site](https://catblock.tenderapp.com) and we'll do our best to fix it!
 
 See you all soon!
 
