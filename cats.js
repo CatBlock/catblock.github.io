@@ -7,7 +7,7 @@ $(document).ready(function () {
     var edge = chrome && (navigator.userAgent.indexOf("Edge") > -1);
     var firefox = navigator.userAgent.indexOf("Firefox") > -1;
 
-    var firefoxURL = "https://addons.mozilla.org/firefox/addon/adblock-with-catblock/";
+    var firefoxURL = "//addons.mozilla.org/firefox/addon/adblock-with-catblock/";
 
     var $DLbutton = $("#downloadbtn");
 
