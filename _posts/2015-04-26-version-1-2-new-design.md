@@ -23,9 +23,9 @@ Hi!
 
 We've just released the latest version of CatBlock - version 1.2! This brings with it the following improvements:
 <ul>
-<li>Translations for the CatBlock options page are available in some languages. If your language is not yet translated, <a href="https://github.com/CatBlock/catblock/wiki/Translators">join our translator team!</a></li>
+<li>Translations for the CatBlock options page are available in some languages. If your language is not yet translated, <a href="//github.com/CatBlock/catblock/wiki/Translators">join our translator team!</a></li>
 <li>The new design that AdBlock has had since 2.18</li>
 <li>The AdBlock "Thumbs up" icon for whitelisted pages has been replaced with a <em>betr</em> "paws up" icon.</li><br />
 </ul>
 <!--more-->
-<p>Downloads: <a href="/chrome">Chrome</a>, <a href="/opera">Opera</a>, <a href="https://sourceforge.net/projects/catblock/files/v1.2/CatBlock-1.2-Safari.safariextz/download">Safari</a></p>
+<p>Downloads: <a href="/chrome">Chrome</a>, <a href="/opera">Opera</a>, <a href="//sourceforge.net/projects/catblock/files/v1.2/CatBlock-1.2-Safari.safariextz/download">Safari</a></p>

@@ -19,5 +19,5 @@ tags: []
 comments: []
 ---
 <p>We've recently added translations to the CatBlock code. It is set to be released in CatBlock v1.2</p>
-<p>If you want to help out with translating CatBlock ready for the release, see our <a href="https://github.com/CatBlock/catblock/wiki/Translators">instructions page</a> - we'll be glad to set your account up!</p>
+<p>If you want to help out with translating CatBlock ready for the release, see our <a href="//github.com/CatBlock/catblock/wiki/Translators">instructions page</a> - we'll be glad to set your account up!</p>
 <!--more-->
