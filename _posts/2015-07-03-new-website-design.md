@@ -27,6 +27,6 @@ Our old site, based around this blog, has been completely updated and redesigned
 
 <!--more-->
 
-If you want to check out the source, see our [GitHub page](https://github.com/CatBlock/website) for it. Also, if anyone has skills with PHP, then adjusting our theme to make a WordPress Theme for the blog would be awesome! Get in touch with us through our email: [catblockteam AT gmail.com](mailto:catblockteam@gmail.com) or to me personally: [kieran AT catblock.github.io](mailto:kieran@catblock.github.io).
+If you want to check out the source, see our [GitHub page](https://github.com/CatBlock/website) for it. Also, if anyone has skills with PHP, then adjusting our theme to make a WordPress Theme for the blog would be awesome! Get in touch with us through our email: [catblockteam AT gmail.com](mailto:catblockteam@gmail.com) or to me personally: [kieran AT getcatblock.com](mailto:kieran@getcatblock.com).
 
 Also, for those who don't know, we like to keep you all informed of what we're doing. We've got a Trello board where we discuss everything, and an IRC channel (#catblock on Freenode) where you'll often find someone in the team online, as long as you're not from Australia, as the whole team is from Europe. (Even so, I've got a bot online regularly)
