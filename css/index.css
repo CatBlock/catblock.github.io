@@ -129,9 +129,6 @@ p {
 footer.site-footer {
   color: #999;
   font-size: 12px;
-  padding: 40px 0;
-  border-top: 1px solid #f1f1f1;
-  margin-top: 40px;
   background: transparent;
 }
 footer.site-footer ul {
@@ -176,11 +173,6 @@ html.page-home .content {
   text-align: center;
   position: relative;
   padding-top: 50px;
-}
-html.page-home footer.site-footer {
-  background: #fff;
-  margin-top: 0;
-  border: 0;
 }
 html.page-home .banner {
   text-align: center;
