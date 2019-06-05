@@ -35,20 +35,20 @@ $(document).ready(function() {
     var $DLbutton = $("#downloadbtn");
 
     if (opera) {
-        $DLbutton.text("Install CatBlock now!");
+        $DLbutton.text("Install CatBlock meow!");
         $DLbutton.click(function() {
             opr.addons.installExtension("pejeadkbfbppoaoinpmkeonebmngpnkk");
         });
     } else if (chrome && !edge) {
-        $DLbutton.text("Install CatBlock now!");
+        $DLbutton.text("Install CatBlock meow!");
         $DLbutton.click(function() {
             chrome.webstore.install();
         });
     } else if (safari) {
-        $DLbutton.text("Install CatBlock now!");
+        $DLbutton.text("Install CatBlock meow!");
         $DLbutton.attr("href", safariURL);
     } else if (firefox) {
-        $DLbutton.text("Install CatBlock now!");
+        $DLbutton.text("Install CatBlock meow!");
         $DLbutton.attr("href", firefoxURL);
     } else {
         $DLbutton.removeClass("btn-success").addClass("btn-failure");
