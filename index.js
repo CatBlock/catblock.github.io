@@ -1,5 +1,6 @@
 var safariURL = "//github.com/CatBlock/catblock/releases/download/v1.5.1/catblock-safari.safariextz";
 var firefoxURL = "//addons.mozilla.org/firefox/addon/adblock-with-catblock/";
+var chromeURL = "//chrome.google.com/webstore/detail/catblock/mdcgnhlfpnbeieiiccmebgkfdebafodo"
 
 $(document).ready(function() {
     "use strict";
@@ -42,7 +43,7 @@ $(document).ready(function() {
     } else if (chrome && !edge) {
         $DLbutton.text("Install CatBlock meow!");
         $DLbutton.click(function() {
-            chrome.webstore.install();
+            $DLbutton.attr("href", chromeURL);
         });
     } else if (safari) {
         $DLbutton.text("Install CatBlock meow!");
